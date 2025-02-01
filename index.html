@@ -44,9 +44,9 @@
 <nav class="sora-font sora-font">
     <div class="navbar bg-base-100 bg-nav-color border-b-2">
         <div class="navbar-start">
-            <img src="assets/logo-header.png" alt="" srcset="">
+            <img src="./assets/logo-header.png" alt="" srcset="">
           
-          <a class="btn btn-ghost hidden lg:flex text-xl">Browse<span>4</span>Pets</a>
+          <a class="btn btn-ghost hidden lg:flex text-xl">Browse<span class="text-yellow-400">4</span>Pets</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -96,14 +96,15 @@
 </nav>
 <body class="overflow-x-hidden ">
     <!-- Cat section -->
-    <section class="container lg:mx-auto lg:p-6 ">
+    <section class="container lg:mx-auto lg:p-6 mt-12 ">
         <div class="relative ">
             <div class=" lg:absolute ">
-                <h1 class="adlam-font font-bold text-6xl ">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                <h1 class="adlam-font font-bold text-6xl 
+                 text-center mt-6 animate-bounce">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
                 <p> Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
                 <a class="btn  bg-yellow-400 px-7 py-3">Find a Pet</a>
             </div>
-            <img class="" src="assets/cat-big.png" alt="" srcset="">
+            <img class="" src="./assets/cat-big.png" alt="" srcset="">
         </div>
     </section>
     <!-- Card -->
@@ -114,7 +115,7 @@
                 <div class="bg-card-color rounded-lg p-5">
                     <div class="avatar">
                         <div class=" rounded-full bg-white">
-                          <img class="p-4" src="assets/dog-cartoon.png" />
+                          <img class="p-4" src="./assets/dog-cartoon.png" />
                         </div>
                       </div>
                       <h1 class="text-center font-bold adlam-font">Dog</h1>
@@ -182,16 +183,16 @@
             <div>
                 
             </div>
-            <div class="lg:flex gap-4">
-                <!-- hellllllllllllllllllllllllloooooooo -->
-                <div class="bg-card-color relative rounded-lg p-10 ">
+            <div class="flex flex-col lg:flex-row gap-4 items-center">
+                
+                <div class="bg-card-color relative rounded-lg p-10 mb-[150px]   ">
                     <h1 class="font-bold text-3xl">T-Shirt For Dogs</h1>
                     <p>Discover a World of treats, toys, and <br>
                     essentials handpicked for</p>
                     <button class="bg-white rounded-md px-6 py-3 m-4 ">Shop Now</button>
     
-                    <div class="flex justify-end mt-0 pt-0 lg:absolute lg:top-20 lg:right-[-30px]">
-                        <img class="" src="assets/cute-pet-small.png" alt="" srcset="">
+                    <div class="flex justify-end  lg:right-[-30px]">
+                        <img class="h-[230px]" src="assets/cute-pet-small.png" alt="" srcset="">
     
                     </div>
     
@@ -212,7 +213,7 @@
                     </div>
                     <div class="flex bg-white px-9 py-8 rounded-xl">
                         <div><img class="bg-middle-color p-5 rounded-lg" src="assets/fish-cartoon.png" alt="" srcset=""></div>
-                        <div>
+                        <div class="">
                             <div class="flex justify-center items-center ">
                                 <i class="fa-solid fa-star text-yellow-400"></i> <h1 class="font-bold center">4.5</h1>
                             </div>
@@ -294,9 +295,9 @@
                         </div>
                         
                     </div>
-                    <div class="flex bg-white px-9 py-8 rounded-xl">
+                    <div class="flex bg-white px-9 py-8 rounded-xl hidden lg:block">
                         <div><img class="bg-middle-color p-5 rounded-lg" src="assets/bird-cartoon.png" alt="" srcset=""></div>
-                        <div>
+                        <div class="">
                             <div class="flex justify-center items-center ">
                                 <i class="fa-solid fa-star text-yellow-400"></i> <h1 class="font-bold center">4.5</h1>
                             </div>
@@ -319,6 +320,27 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="mt-12">
         <div>
@@ -359,7 +381,7 @@
             <div>
                 <h1 class="font-bold adlam-font text-5xl " >Get Pawsome News!</h1>
                 <p class="text-2xl">Exclusive training tips, ticks, product deals and more.</p>
-                <input class="pt-6 px-10 flex justify-center items-center" type="email" name="" placeholder="Enter Email" id="">
+                <input class="pt-6 px-10 flex items-center justify-center " type="email" name="" placeholder="Enter Email" id="">
                 <br>
                 <button class="bg-yellow-400 rounded-md px-6 py-3 m-4 ">Subscribe</button>
             </div>
@@ -368,8 +390,8 @@
 
     <footer>
         <div class="">
-            <footer class="footer bg-card-color text-base-content lg:pt-[170px] pt-[250px] p-10 ">
-                <nav class="p-10">
+            <footer class="footer bg-card-color text-base-content lg:pt-[170px] pt-[200px] p-10 ">
+                <nav class="pt-[200px] lg:pt-[1px]">
                     <img src="./assets/logo-footer.png" alt="">
                     <h1>Browse<span class="text-yellow-400">4</span>Pets</h1>
                     <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
@@ -383,7 +405,7 @@
                 </nav>
                 <nav>
                   <h6 class="footer-title">Follow Us</h6>
-                  <div class="lg:grid lg:grid-flow-col lg:gap-4">
+                  <div class="lg:grid lg:grid-flow-col lg:gap-4 flex gap-3">
                     <a>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
